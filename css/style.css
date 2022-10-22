@@ -106,17 +106,32 @@ p {
     max-width: 560px;
     text-align: center;
   }
+  .about-paragraphs {
+    margin: 10px;
+    line-height: 0.2;
+  }
   h1 {
     line-height: 0.8;
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
   }
   h3,
   .navigation-links {
     margin: 10px;
+    font-size: 16px;
   }
 }
 @media (max-width: 912px) {
   h3,
   .navigation-links {
+    margin: 10px;
+  }
+}
+@media (max-width: 375px) {
+  .col-sm-6 {
     margin: 10px;
   }
 }
