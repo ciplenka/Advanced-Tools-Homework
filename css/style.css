@@ -101,3 +101,22 @@ p {
 .shadow {
   box-shadow: 3px -2px 20px -6px rgba(107, 106, 107, 1);
 }
+@media (max-width: 576px) {
+  body {
+    max-width: 560px;
+    text-align: center;
+  }
+  h1 {
+    line-height: 0.8;
+  }
+  h3,
+  .navigation-links {
+    margin: 10px;
+  }
+}
+@media (max-width: 912px) {
+  h3,
+  .navigation-links {
+    margin: 10px;
+  }
+}
